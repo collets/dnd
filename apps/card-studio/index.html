@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="it">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>D&D Card Studio</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="toolbar">
+<div><strong>D&D Card Studio</strong><small>Carte di riferimento per personaggi · formato MTG</small></div>
+<div class="actions"><label for="deck">Mazzo</label><select id="deck" aria-label="Seleziona il mazzo"></select><label><input type="checkbox" id="guides" checked> Bordi di taglio</label><button id="print">Stampa A4</button></div>
+</header>
+<p class="instructions">Prototipo: 63 × 88 mm, fino a 9 carte per foglio A4. Stampa al 100%, margini nessuno, intestazioni disattivate, grafica di sfondo attiva. Verifica le dimensioni su carta normale prima della stampa adesiva.</p>
+<main id="sheets"></main>
+<script src="decks/kaladin.js"></script><script src="app.js"></script>
+</body></html>
